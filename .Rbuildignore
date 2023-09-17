@@ -4,3 +4,6 @@
 ^mynotes\.R
 ^README\.Rmd$
 ^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

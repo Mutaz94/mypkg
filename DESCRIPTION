@@ -11,7 +11,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-URL: https://github.com/Mutaz94/mypkg
+URL: https://github.com/Mutaz94/mypkg, https://mutaz94.github.io/mypkg/
 BugReports: https://github.com/Mutaz94/mypkg/issues
 Suggests: 
     testthat (>= 3.0.0)
