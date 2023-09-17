@@ -13,7 +13,7 @@ test_that("lib_summary returns expected result", {
 })
 
 test_that("lib_summary fails appropriately", {
-  expect_error(lib_summary("foo"))
+  expect_error(lib_summary("foo"), "'sizes' must be TRUE or FALSE")
 })
 
 test_that("sizes argument works", {
