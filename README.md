@@ -4,6 +4,8 @@
 # mypkg
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/Mutaz94/mypkg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Mutaz94/mypkg/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of mypkg is to help you understand your libraries better.
@@ -27,7 +29,7 @@ library(mypkg)
 lib_summary()
 #>                                                                                        Library
 #> 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/hh/0f4d8d714_jgz56dww2f_2x40000gp/T/Rtmphr0FJz/temp_libpatha3035fb12a33
+#> 2 /private/var/folders/hh/0f4d8d714_jgz56dww2f_2x40000gp/T/RtmpYOzhhi/temp_libpathb9c410a20f20
 #> 3                                                    /Users/mjaber/Library/R/arm64/4.3/library
 #>   n_packages
 #> 1        125
@@ -38,10 +40,10 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                                        Library
 #> 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/hh/0f4d8d714_jgz56dww2f_2x40000gp/T/Rtmphr0FJz/temp_libpatha3035fb12a33
+#> 2 /private/var/folders/hh/0f4d8d714_jgz56dww2f_2x40000gp/T/RtmpYOzhhi/temp_libpathb9c410a20f20
 #> 3                                                    /Users/mjaber/Library/R/arm64/4.3/library
 #>   n_packages  lib_size
 #> 1        125 338284119
-#> 2          1     14819
-#> 3          3   2433454
+#> 2          1     14818
+#> 3          3   2434895
 ```
