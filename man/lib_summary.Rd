@@ -7,7 +7,8 @@
 lib_summary(sizes = FALSE)
 }
 \arguments{
-\item{sizes}{Logical parameter (TRUE/FALSE) to calculate sizes of library}
+\item{sizes}{A logical parameter (TRUE/FALSE) to calculate sizes of library.
+Default \code{FALSE}}
 }
 \value{
 A two-column \code{data.frame} containing the count of packages in each of the user's
