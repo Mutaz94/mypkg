@@ -7,7 +7,7 @@
 lib_summary()
 }
 \value{
-A two-column \code{data.frame} containing the coubt of packages in each of the user's
+A two-column \code{data.frame} containing the count of packages in each of the user's
 libraries.
 }
 \description{
