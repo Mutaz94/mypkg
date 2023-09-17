@@ -3,7 +3,7 @@
 #' Provide a brief summary of the package libraries on your machine
 #'
 #' @return A two-column `data.frame` containing the count of packages in each of the user's
-#'  libraries.
+#'  libraries \eqn{a + b^2}.
 #' @export
 #' @examples
 #'   lib_summary()

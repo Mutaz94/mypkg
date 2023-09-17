@@ -8,7 +8,7 @@ lib_summary()
 }
 \value{
 A two-column \code{data.frame} containing the count of packages in each of the user's
-libraries.
+libraries \eqn{a + b^2}.
 }
 \description{
 Provide a brief summary of the package libraries on your machine
