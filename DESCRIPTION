@@ -1,12 +1,13 @@
 Package: mypkg
-Title: What the Package Does (One Line, Title Case)
+Title: Explore Your R libraries
 Version: 0.0.0.9000
-Authors@R: c(
- .
-   )
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Authors@R:
+  person("Mutaz", "Jaber", ,"jaber038@umn.edu", 
+         role = c("aut", "cre"),
+         comment = c(ORCID = "0000-0002-7536-8753"))
+Description: Provides functions for learning about your R libraries, 
+  and the packages you have installed. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
